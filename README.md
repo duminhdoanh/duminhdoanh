@@ -1,16 +1,29 @@
-### Hi there 👋
+# Thực hành Git
+Đây là Github repo thực hành Git.
+## Phần 1 - Cấu hình Git
+Lệnh để cấu hình Git:
 
-<!--
-**duminhdoanh/duminhdoanh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+***
 
-Here are some ideas to get you started:
+Git config --global user.name "Name"  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+git config --global user.email "abc@zy.com"
+
+## Phần 2 - Khởi tạo Git repo
+
+lệnh để khởi tạo Git repo là: Git init
+
+## Phần 3 - Commit
+
+Dùng hai lệnh để commit thay đổi tên Git repo:
+***
+
+git add .  
+
+git commit -m "Thông điệp commit"
+***
+
+## Phần 4 - Push
+
+Push local repo lên Remote repo trên Github
+
